@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="./style.css">
+
+<div class="login-page">
+  
+    <div class="form">
+        <h4 class="text-danger">{{msg}}</h4>
+        <form class="login-form" action="/verify" method="post">
+            <input type="text" name="username" placeholder="username" />
+            <input type="password" name="password" placeholder="password" />
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+    </div>
+</div>
